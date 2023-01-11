@@ -1,7 +1,4 @@
 const mongoose = require('mongoose');
-const members = require('./members').membersModel;
-const faculty = require('./faculty').facultyModel;
-const course = require('./course').courseModel;
 const Schema = mongoose.Schema;
 const department = new Schema({
 name:

@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const members = require('./members').membersModel
 
 const Schema = mongoose.Schema;
 const log = new Schema({

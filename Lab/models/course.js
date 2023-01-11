@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const members= require('./members').membersModel
 
 const course = new Schema({
 name:

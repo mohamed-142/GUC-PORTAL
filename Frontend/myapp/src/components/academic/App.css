@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 .ViewStaff {
   /*background-image: url('/images/img-2.jpg');*/
@@ -39,61 +39,55 @@
   color: #fff;
   font-size: 80px;
 }
-.Notifications{
-  
+.Notifications {
   background-color: teal;
   color: #fff;
   font-size: 80px;
 }
-.Allrequests{
-  background-color: teal;
-  color: #fff;
-  font-size: 80px;
-
-}
-.Acceptedrequests{
-  background-color: teal;
-  color: #fff;
-  font-size: 80px;
-
-}
-
-.Rejectedrequests{
+.Allrequests {
   background-color: teal;
   color: #fff;
   font-size: 80px;
 }
-.Pendingrequests{
+.Acceptedrequests {
   background-color: teal;
   color: #fff;
   font-size: 80px;
 }
 
-.dfreq{
+.Rejectedrequests {
   background-color: teal;
   color: #fff;
   font-size: 80px;
 }
-.Leaverequests{
+.Pendingrequests {
   background-color: teal;
   color: #fff;
   font-size: 80px;
 }
-.Replacementrequests{
-  background-color: teal;
-  color: #fff;
-  font-size: 80px;
 
-}
-.Slotlinkingrequests{
+.dfreq {
   background-color: teal;
   color: #fff;
   font-size: 80px;
-
 }
-.Viewschedule{
+.Leaverequests {
   background-color: teal;
   color: #fff;
   font-size: 80px;
-
+}
+.Replacementrequests {
+  background-color: teal;
+  color: #fff;
+  font-size: 80px;
+}
+.Slotlinkingrequests {
+  background-color: teal;
+  color: #fff;
+  font-size: 80px;
+}
+.Viewschedule {
+  background-color: teal;
+  color: #fff;
+  font-size: 80px;
 }

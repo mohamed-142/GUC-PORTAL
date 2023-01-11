@@ -5,7 +5,7 @@ const location = require('../models/location')
 const log = require('../models/log')
 
 
-const express= require('express');
+const express= require('express')
 const router= express.Router()
 
 

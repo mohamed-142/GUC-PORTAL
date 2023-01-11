@@ -1,16 +1,15 @@
-const express= require('express');
-const { app } = require('../app');
+const express= require('express')
 const router= express.Router()
 const members= require('../models/members').membersModel
 const location = require('../models/location')
-const facultyModel = require('../models/faculty').facultyModel;
+const facultyModel = require('../models/faculty').facultyModel
 const teachingSlot = require('../models/teachingSlot').teachingSlotModel
 const department = require('../models/department').departmentModel
 const course = require('../models/course').courseModel
 const log = require('../models/log')
 const bcrypt= require('bcryptjs')
-const jwt= require('jsonwebtoken');
-const ids = require('../models/ids');
+const jwt= require('jsonwebtoken')
+const ids = require('../models/ids')
 
 router.route('/location').get(async (req, res) => {
     await location.find()

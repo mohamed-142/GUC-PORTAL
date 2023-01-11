@@ -1,5 +1,4 @@
 const express= require('express');
-const { app } = require('../app');
 const Router = express.Router();
 const jsonwebtoken = require('jsonwebtoken')
 

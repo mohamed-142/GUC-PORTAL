@@ -1,8 +1,7 @@
-  
-import React, { useState } from 'react';
-import { Senditems } from './Senditems';
-import './Dropdown.css';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Senditems } from "./Senditems";
+import "./Dropdown.css";
+import { Link } from "react-router-dom";
 
 function Dropdown() {
   const [click, setClick] = useState(false);
@@ -13,7 +12,7 @@ function Dropdown() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={click ? "dropdown-menu clicked" : "dropdown-menu"}
       >
         {Senditems.map((item, index) => {
           return (
@@ -31,6 +30,6 @@ function Dropdown() {
       </ul>
     </>
   );
-      }
+}
 
 export default Dropdown;

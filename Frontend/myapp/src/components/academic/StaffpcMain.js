@@ -1,13 +1,9 @@
-import React from 'react'
-import './App.css';
-import './DayOffmain.css';
+import React from "react";
+import "./App.css";
+import "./DayOffmain.css";
 
 function StaffpcMain() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div></div>;
 }
 
-export default StaffpcMain
+export default StaffpcMain;
